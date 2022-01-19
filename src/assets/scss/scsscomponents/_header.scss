@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 8rem;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: bold;
+  .nav {
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 2rem;
+
+      li {
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        padding-bottom: .5rem;
+        border-bottom: 1px solid $black;
+        &:hover {
+          border-bottom-style: solid;
+          color: red;
+          border-bottom: 1px solid red; 
+        }
+      }
+    }
+  }
+}
+.name {
+  font-family: serif;
+  display: flex;
+  cursor: pointer;
+  transition: 500ms ease-out;
+  background-color: $gradient;
+    &:hover{
+    transform: scale(1.1)
+  }
+
+}

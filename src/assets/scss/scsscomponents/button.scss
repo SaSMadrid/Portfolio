@@ -1,0 +1,30 @@
+.pbutton {
+  display: flex;
+  padding-right: 35rem;
+  padding-left: 35rem;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    li{
+      &:hover{
+        transform: scale(1.1)
+      }
+    }
+    button {
+        width: 120px;
+        height: 35px;
+        background-color: rgb(34, 100, 155);
+        cursor: pointer;
+        border-color: rgb(34, 100, 155);
+        border-radius: 8px;
+        font-weight: bold;
+        &:hover{
+          background-color: honeydew;
+          color: rgb(34, 100, 155);
+          border-color: blanchedalmond;
+        }
+    }
+}
+}
